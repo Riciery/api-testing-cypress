@@ -1,0 +1,17 @@
+{
+  "name": "fakerestapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run:mobile": "npx cypress open --config viewportWidth=411,viewportHeight=823",
+    "cypress:run": "npx cypress run",
+    "open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.4.0"
+  }
+}
